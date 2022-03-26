@@ -1,0 +1,14 @@
+article {
+  background-color: #b3e5fc;
+  padding: 20px;
+  margin: 30px auto;
+}
+article h2 {
+  margin-top: 20px;
+}
+article p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 30px;
+  text-align: justify;
+}

@@ -6,7 +6,7 @@
 
 ## Live Link
 
-Check the live view of this site from this link: [HP Laptop Store](http://localhost:3000)
+Check the live view of this site from this link: [HP Laptop Store](https://hp-laptop-store.netlify.app/)
 
 <!-- Project Description -->
 

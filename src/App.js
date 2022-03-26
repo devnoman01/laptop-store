@@ -1,4 +1,5 @@
 import "./App.css";
+import Articles from "./components/Articles/Articles";
 import Header from "./components/Header/Header";
 import Shop from "./components/Shop/Shop";
 
@@ -10,6 +11,9 @@ function App() {
 
       {/* calling Shop component */}
       <Shop></Shop>
+
+      {/* calling Articles component */}
+      <Articles></Articles>
     </div>
   );
 }
