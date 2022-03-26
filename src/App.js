@@ -1,5 +1,6 @@
 import "./App.css";
 import Articles from "./components/Articles/Articles";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Shop from "./components/Shop/Shop";
 
@@ -14,6 +15,9 @@ function App() {
 
       {/* calling Articles component */}
       <Articles></Articles>
+
+      {/* calling Footer component */}
+      <Footer></Footer>
     </div>
   );
 }
