@@ -1,0 +1,72 @@
+[
+    {
+      "id": "1",
+      "picture":
+        "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07833555.png",
+      "name": "Spectre x360 16",
+      "price": 1249
+    },
+    {
+      "id": "2",
+      "picture":
+        "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07602305.png",
+      "name": "OMEN 16",
+      "price": 849
+    },
+    {
+      "id": "3",
+      "picture":
+        "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07991706.png",
+      "name": "Spectre x360 14",
+      "price": 1099
+    },
+    {
+      "id": "4",
+      "picture":
+        "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07973476.png",
+      "name": "ENVY x360",
+      "price": 649
+    },
+    {
+      "id": "5",
+      "picture":
+        "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06724597.png",
+      "name": "ZBook Studio",
+      "price": 2529
+    },
+    {
+      "id": "6",
+      "picture":
+        "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07995303.png",
+      "name": "Pavilion Aero",
+      "price": 749
+    },
+    {
+      "id": "7",
+      "picture":
+        "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07993620.png",
+      "name": "ProBook 640",
+      "price": 1339
+    },
+    {
+      "id": "8",
+      "picture":
+        "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07963295.png",
+      "name": "Gaming Laptop",
+      "price": 619
+    },
+    {
+      "id": "9",
+      "picture":
+        "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07263741.png",
+      "name": "Victus",
+      "price": 649
+    },
+    {
+      "id": "10",
+      "picture":
+        "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06750177.png",
+      "name": "OMEN 15",
+      "price": 1049
+    }
+]
