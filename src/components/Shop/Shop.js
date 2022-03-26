@@ -4,6 +4,7 @@ import Products from "../Products/Products";
 import "./Shop.css";
 
 const Shop = () => {
+  // destructuring object properties
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
 
@@ -13,18 +14,22 @@ const Shop = () => {
       .then((data) => setProducts(data));
   }, []);
 
-  //   add to cart button handle function
+  // add to cart button handle function
   const handleAddToCart = (selectedProduct) => {
     const exist = cart.find((product) => product.id === selectedProduct.id);
     if (exist) {
       alert("Product already selected");
     } else {
-      const newCart = [...cart, selectedProduct];
-      setCart(newCart);
-      console.log(cart);
+      if (cart.length >= 4) {
+        alert("4 item added already.");
+      } else {
+        const newCart = [...cart, selectedProduct];
+        setCart(newCart);
+      }
     }
   };
 
+  // random choice button handle function
   const handleRandomChoice = () => {
     if (cart.length === 0) {
       alert("No product selected to choose");
@@ -37,15 +42,16 @@ const Shop = () => {
     }
   };
 
+  // reset button handle function
   const handleResetCart = () => {
     const newCart = [];
     setCart(newCart);
-    console.log(cart);
   };
 
   return (
     <div className="container-xl">
       <div className="row p-2 py-4 shop-container">
+        {/* Cart part start here */}
         <div className="col-lg-3 col-md-12 col-sm-12 cart-container">
           <h3 className="my-3">Order Summary</h3>
           <h5 className="text-center">Selected Products: </h5>
@@ -56,7 +62,7 @@ const Shop = () => {
           </div>
           <div>
             <button onClick={handleRandomChoice} className="">
-              Choose any one
+              Choose any item
             </button>
             <br />
             <button onClick={() => handleResetCart()} className="">
@@ -64,6 +70,9 @@ const Shop = () => {
             </button>
           </div>
         </div>
+        {/* Cart part ends here */}
+
+        {/* Products part start here */}
         <div className="col-lg-9 col-md-12 col-sm-12">
           <div className="products-container row">
             {products.map((product) => (
@@ -75,9 +84,11 @@ const Shop = () => {
             ))}
           </div>
         </div>
+        {/* Products part ends here */}
       </div>
     </div>
   );
 };
 
+// exporting return from Shop function
 export default Shop;

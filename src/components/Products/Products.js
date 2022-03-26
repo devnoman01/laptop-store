@@ -4,6 +4,7 @@ import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import "./Products.css";
 
 const Products = (props) => {
+  // destructuring object properties
   const { product, handleAddToCart } = props;
   const { name, price, picture } = product;
   return (
@@ -27,4 +28,5 @@ const Products = (props) => {
   );
 };
 
+// exporting return from Products function
 export default Products;
