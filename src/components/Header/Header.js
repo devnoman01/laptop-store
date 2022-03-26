@@ -11,8 +11,10 @@ const Header = () => {
       <div className="container-fluid">
         <span className="navbar-brand mx-auto mb-0 nav-heading text-center">
           {/* using fontawesome icon */}
-          <FontAwesomeIcon icon={faLaptop} className="me-2" />
-          HP Laptop Store
+          <a href="/">
+            <FontAwesomeIcon icon={faLaptop} className="me-2" />
+            HP Laptop Store
+          </a>
         </span>
       </div>
     </nav>
