@@ -8,6 +8,8 @@
 
 Check the live view of this site from this link: [HP Laptop Store](https://hp-laptop-store.netlify.app/)
 
+[https://hp-laptop-store.netlify.app/](https://hp-laptop-store.netlify.app/)
+
 <!-- Project Description -->
 
 ## Project Description
